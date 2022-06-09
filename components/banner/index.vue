@@ -50,7 +50,7 @@ export default {};
 
   & .container {
     min-height: 570px;
-    background-image: url("~/assets/images/banner.png");
+    background-image: url("~assets/images/banner.png");
     background-size: auto contain;
     background-repeat: no-repeat;
     background-position: top right;
@@ -67,7 +67,7 @@ export default {};
     position: absolute;
     z-index: 9;
     inset: auto auto 100px 100px;
-    background-image: url("~/assets/images/banner-box.png");
+    background-image: url("~assets/images/banner-box.png");
   }
 
   &__title {
@@ -126,7 +126,7 @@ export default {};
     padding-top: 45px;
 
     & .container {
-      background-image: url("~/assets/images/banner-mobile.png");
+      background-image: url("~assets/images/banner-mobile.png");
       align-items: center;
     }
 

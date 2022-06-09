@@ -2,7 +2,7 @@
   <header class="header wow animate__fadeInDown" data-wow-duration="1s">
     <div class="container">
       <a class="header__logo" href="javascript:void(0);">
-        <img src="~/assets/images/logo.png" alt="TNY Solutions" />
+        <img src="~assets/images/logo.png" alt="TNY Solutions" />
       </a>
       <ul class="header__navigation">
         <li class="header__navigation__item">

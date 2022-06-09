@@ -25,7 +25,7 @@
             class="boxes__list__item__right boxes__list__item__right--what__we__do wow animate__fadeIn"
             data-wow-duration="3s"
           >
-            <img src="~/assets/images/what-we-do.jpg" alt="What We Do" />
+            <img src="~assets/images/what-we-do.jpg" alt="What We Do" />
           </div>
         </li>
         <li class="boxes__list__item">
@@ -33,7 +33,7 @@
             class="boxes__list__item__left boxes__list__item__left--flip boxes__list__item__left--our__culture wow animate__fadeIn"
             data-wow-duration="3s"
           >
-            <img src="~/assets/images/our-culture.jpg" alt="Our Culture" />
+            <img src="~assets/images/our-culture.jpg" alt="Our Culture" />
           </div>
           <div
             class="boxes__list__item__right boxes__list__item__right--flip wow animate__fadeIn"
@@ -65,7 +65,7 @@
             class="boxes__list__item__right boxes__list__item__right--why__tny wow animate__fadeIn"
             data-wow-duration="3s"
           >
-            <img src="~/assets/images/why-tny.jpg" alt="What We Do" />
+            <img src="~assets/images/why-tny.jpg" alt="What We Do" />
           </div>
         </li>
       </ul>
@@ -109,7 +109,7 @@ export default {};
           display: block;
           width: 135px;
           height: 131px;
-          background-image: url("~/assets/images/our-culture-box-1.png");
+          background-image: url("~assets/images/our-culture-box-1.png");
           position: absolute;
           inset: -65px auto auto -75px;
         }
@@ -119,7 +119,7 @@ export default {};
           display: block;
           width: 123px;
           height: 120px;
-          background-image: url("~/assets/images/our-culture-box-2.png");
+          background-image: url("~assets/images/our-culture-box-2.png");
           position: absolute;
           inset: auto -40px -80px auto;
           z-index: 10;
@@ -147,7 +147,7 @@ export default {};
           display: block;
           width: 93px;
           height: 95px;
-          background-image: url("~/assets/images/what-we-do-box-2.png");
+          background-image: url("~assets/images/what-we-do-box-2.png");
           position: absolute;
           inset: -50px 30px auto auto;
           z-index: 10;
@@ -158,7 +158,7 @@ export default {};
           display: block;
           width: 143px;
           height: 131px;
-          background-image: url("~/assets/images/what-we-do-box-1.png");
+          background-image: url("~assets/images/what-we-do-box-1.png");
           position: absolute;
           inset: auto auto -75px 15px;
         }
@@ -168,7 +168,7 @@ export default {};
           display: block;
           width: 194px;
           height: 198px;
-          background-image: url("~/assets/images/why-tny-box-1.png");
+          background-image: url("~assets/images/why-tny-box-1.png");
           position: absolute;
           inset: -75px 0px auto auto;
         }
@@ -178,7 +178,7 @@ export default {};
           display: block;
           width: 82px;
           height: 75px;
-          background-image: url("~/assets/images/why-tny-box-2.png");
+          background-image: url("~assets/images/why-tny-box-2.png");
           position: absolute;
           inset: auto auto -35px 55px;
           z-index: 10;

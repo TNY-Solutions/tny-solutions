@@ -8,6 +8,6 @@ You can directly use them in pages and other components without the need to impo
 
 - `<Banner>` | `<banner>` (components/banner/index.vue)
 - `<Boxes>` | `<boxes>` (components/boxes/index.vue)
+- `<Footer>` | `<footer>` (components/layout/footer/index.vue)
 - `<Header>` | `<header>` (components/layout/header/index.vue)
 - `<Loading>` | `<loading>` (components/layout/loading/index.vue)
-- `<Footer>` | `<footer>` (components/layout/footer/index.vue)
