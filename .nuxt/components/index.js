@@ -1,8 +1,8 @@
-export { default as Banner } from '../../components/banner/index.vue'
 export { default as Boxes } from '../../components/boxes/index.vue'
-export { default as Footer } from '../../components/layout/footer/index.vue'
+export { default as Banner } from '../../components/banner/index.vue'
 export { default as Header } from '../../components/layout/header/index.vue'
 export { default as Loading } from '../../components/layout/loading/index.vue'
+export { default as Footer } from '../../components/layout/footer/index.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

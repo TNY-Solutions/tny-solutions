@@ -1,17 +1,17 @@
 {
-  "Banner": {
-    "description": "Auto imported from components/banner/index.vue"
-  },
   "Boxes": {
     "description": "Auto imported from components/boxes/index.vue"
   },
-  "Footer": {
-    "description": "Auto imported from components/layout/footer/index.vue"
+  "Banner": {
+    "description": "Auto imported from components/banner/index.vue"
   },
   "Header": {
     "description": "Auto imported from components/layout/header/index.vue"
   },
   "Loading": {
     "description": "Auto imported from components/layout/loading/index.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/layout/footer/index.vue"
   }
 }
