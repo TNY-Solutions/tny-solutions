@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "/Users/erkanyeter/Desktop/www/tny-solutions/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_9e4f41a8"
+    "chunkName": "pages/index"
   }
 ]
