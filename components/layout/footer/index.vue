@@ -1,7 +1,7 @@
 <template>
   <footer class="footer wow animate__fadeIn" data-wow-duration="2s">
     <div class="container">
-      <a class="footer__logo" href="javascript:void(0);">
+      <a class="footer__logo" href="/">
         <img src="~/assets/images/logo.png" alt="TNY Solutions" />
         <span>
           We are solving your <br />

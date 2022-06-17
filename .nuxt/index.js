@@ -12,7 +12,10 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_a9fa0c48 from 'nuxt_plugin_plugin_a9fa0c48' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_47dff04e from 'nuxt_plugin_plugin_47dff04e' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_workbox_aaf0e700 from 'nuxt_plugin_workbox_aaf0e700' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_f86758da from 'nuxt_plugin_metaplugin_f86758da' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_googleanalytics_0eca5142 from 'nuxt_plugin_googleanalytics_0eca5142' // Source: ./google-analytics.js (mode: 'client')
 import nuxt_plugin_wow_2d4c4024 from 'nuxt_plugin_wow_2d4c4024' // Source: ../plugins/wow.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -63,7 +66,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"meta":[],"link":[{"hid":"gf-prefetch","rel":"dns-prefetch","href":"https:\u002F\u002Ffonts.gstatic.com\u002F"},{"hid":"gf-preconnect","rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com\u002F","crossorigin":""},{"hid":"gf-preload","rel":"preload","as":"style","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Poppins:wght@400;500;600;700;800;900"}],"style":[],"script":[{"hid":"gf-script","innerHTML":"(function(){var l=document.createElement('link');l.rel=\"stylesheet\";l.href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Poppins:wght@400;500;600;700;800;900\";document.querySelector(\"head\").appendChild(l);})();"}],"noscript":[{"hid":"gf-noscript","innerHTML":"\u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Poppins:wght@400;500;600;700;800;900\"\u003E"}],"__dangerouslyDisableSanitizersByTagID":{"gf-script":["innerHTML"],"gf-noscript":["innerHTML"]}},
+    head: {"title":"FAST, BEST, ENJOY SOLUTIONS! | TNY Solutions","htmlAttrs":{"lang":"tr"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"We are solving your problems with tiny solutions."},{"name":"msapplication-TileColor","content":"#ffffff"},{"name":"msapplication-TileImage","content":"\u002Fimages\u002Fms-icon-144x144.png"},{"name":"theme-color","content":"#ffffff"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"TNY Solutions"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"TNY Solutions"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"TNY Solutions"}],"link":[{"rel":"apple-touch-icon","type":"57x57","href":"\u002Fimages\u002Fapple-icon-57x57.png"},{"rel":"apple-touch-icon","type":"60x60","href":"\u002Fimages\u002Fapple-icon-60x60.png"},{"rel":"apple-touch-icon","type":"72x72","href":"\u002Fimages\u002Fapple-icon-72x72.png"},{"rel":"apple-touch-icon","type":"76x76","href":"\u002Fimages\u002Fapple-icon-76x76.png"},{"rel":"apple-touch-icon","type":"114x114","href":"\u002Fimages\u002Fapple-icon-114x114.png"},{"rel":"apple-touch-icon","type":"120x120","href":"\u002Fimages\u002Fapple-icon-120x120.png"},{"rel":"apple-touch-icon","type":"144x144","href":"\u002Fimages\u002Fapple-icon-144x144.png"},{"rel":"apple-touch-icon","type":"152x152","href":"\u002Fimages\u002Fapple-icon-152x152.png"},{"rel":"apple-touch-icon","type":"180x180","href":"\u002Fimages\u002Fapple-icon-180x180.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"192x192","href":"\u002Fimages\u002Fandroid-icon-192x192.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"132x32","href":"\u002Fimages\u002Ffavicon-32x32.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"196x96","href":"\u002Fimages\u002Ffavicon-96x96.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"116x16","href":"\u002Fimages\u002Ffavicon-16x16.png"},{"rel":"manifest","href":"\u002Fimages\u002Fmanifest.json"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.f431a79f.json","hid":"manifest"},{"hid":"gf-prefetch","rel":"dns-prefetch","href":"https:\u002F\u002Ffonts.gstatic.com\u002F"},{"hid":"gf-preconnect","rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com\u002F","crossorigin":""},{"hid":"gf-preload","rel":"preload","as":"style","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Poppins:wght@400;500;600;700;800;900"}],"style":[],"script":[{"hid":"gf-script","innerHTML":"(function(){var l=document.createElement('link');l.rel=\"stylesheet\";l.href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Poppins:wght@400;500;600;700;800;900\";document.querySelector(\"head\").appendChild(l);})();"}],"noscript":[{"hid":"gf-noscript","innerHTML":"\u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Poppins:wght@400;500;600;700;800;900\"\u003E"}],"__dangerouslyDisableSanitizersByTagID":{"gf-script":["innerHTML"],"gf-noscript":["innerHTML"]}},
 
     router,
     nuxt: {
@@ -177,8 +180,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_a9fa0c48 === 'function') {
-    await nuxt_plugin_plugin_a9fa0c48(app.context, inject)
+  if (typeof nuxt_plugin_plugin_47dff04e === 'function') {
+    await nuxt_plugin_plugin_47dff04e(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_workbox_aaf0e700 === 'function') {
+    await nuxt_plugin_workbox_aaf0e700(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_metaplugin_f86758da === 'function') {
+    await nuxt_plugin_metaplugin_f86758da(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_googleanalytics_0eca5142 === 'function') {
+    await nuxt_plugin_googleanalytics_0eca5142(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_wow_2d4c4024 === 'function') {

@@ -2,7 +2,7 @@
   <section class="boxes">
     <div class="container">
       <ul class="boxes__list">
-        <li class="boxes__list__item">
+        <li class="boxes__list__item" id="about-us">
           <div
             class="boxes__list__item__left wow animate__fadeIn"
             data-wow-duration="3s"
@@ -22,7 +22,11 @@
             </p>
           </div>
           <div
-            class="boxes__list__item__right boxes__list__item__right--what__we__do wow animate__fadeIn"
+            class="
+              boxes__list__item__right boxes__list__item__right--what__we__do
+              wow
+              animate__fadeIn
+            "
             data-wow-duration="3s"
           >
             <img src="~assets/images/what-we-do.jpg" alt="What We Do" />
@@ -30,13 +34,23 @@
         </li>
         <li class="boxes__list__item">
           <div
-            class="boxes__list__item__left boxes__list__item__left--flip boxes__list__item__left--our__culture wow animate__fadeIn"
+            class="
+              boxes__list__item__left
+              boxes__list__item__left--flip
+              boxes__list__item__left--our__culture
+              wow
+              animate__fadeIn
+            "
             data-wow-duration="3s"
           >
             <img src="~assets/images/our-culture.jpg" alt="Our Culture" />
           </div>
           <div
-            class="boxes__list__item__right boxes__list__item__right--flip wow animate__fadeIn"
+            class="
+              boxes__list__item__right boxes__list__item__right--flip
+              wow
+              animate__fadeIn
+            "
             data-wow-duration="3s"
           >
             <h4>Our Culture</h4>
@@ -62,7 +76,11 @@
             </p>
           </div>
           <div
-            class="boxes__list__item__right boxes__list__item__right--why__tny wow animate__fadeIn"
+            class="
+              boxes__list__item__right boxes__list__item__right--why__tny
+              wow
+              animate__fadeIn
+            "
             data-wow-duration="3s"
           >
             <img src="~assets/images/why-tny.jpg" alt="What We Do" />

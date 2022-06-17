@@ -1,21 +1,21 @@
 <template>
   <header class="header wow animate__fadeInDown" data-wow-duration="1s">
     <div class="container">
-      <a class="header__logo" href="javascript:void(0);">
+      <a class="header__logo" href="/">
         <img src="~assets/images/logo.png" alt="TNY Solutions" />
       </a>
       <ul class="header__navigation">
         <li class="header__navigation__item">
-          <a href="javascript:void(0);">About Us</a>
+          <a href="#about-us">About Us</a>
         </li>
         <li class="header__navigation__item">
-          <a href="javascript:void(0);">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li class="header__navigation__item">
-          <a href="javascript:void(0);">Careers</a>
+          <a href="#careers">Careers</a>
         </li>
         <li class="header__navigation__item">
-          <a href="javascript:void(0);">Contact Us</a>
+          <a href="#contact-us">Contact Us</a>
         </li>
       </ul>
     </div>
